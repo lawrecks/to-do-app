@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    min-height: 100vh;
+    transition-property: background;
+    background: linear-gradient(to bottom, #858585, #fff);
+    /* transition-duration: 3s; */
+    animation: switchColor ease 5s;
+    z-index: -1;
+}
+
